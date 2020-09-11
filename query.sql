@@ -7,4 +7,9 @@ SELECT * FROM happiness;
 SELECT *
 FROM countries
 INNER JOIN happiness
-ON countries.country = happiness.country
+ON countries.country = happiness.country;
+
+-- Found 'natural join' is an option:
+SELECT *
+FROM countries
+NATURAL JOIN happiness;
