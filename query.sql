@@ -3,13 +3,7 @@ SELECT * FROM countries;
 
 SELECT * FROM happiness;
 
--- Join tables on country
-SELECT *
-FROM countries
-INNER JOIN happiness
-ON countries.country = happiness.country;
-
--- Found 'natural join' is an option:
+-- Join tables on country, using NATURAL JOIN to avoid duplicate 'country' column
 SELECT *
 FROM countries
 NATURAL JOIN happiness;
