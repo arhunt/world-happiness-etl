@@ -20,7 +20,7 @@
 
 The World Happiness Report is an annual analysis of countries by six different categories of data that are said to contribute to the overall happiness of the people living in that country.  These measures are:
 
-> 1. GDP per capita
+> 1. GDP per capita (logarithm is used)
 > 1. Social support
 > 1. Life expectancy
 > 1. Freedom to make life choices
