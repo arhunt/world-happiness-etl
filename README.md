@@ -4,12 +4,12 @@
 
 The World Happiness Report is an annual analysis of countries by six different categories of data that are said to contribute to the overall happiness of the people living in that country.  These measures are:
 
-> 1. GDP per capita (logarithm is used)
-> 1. Social support
-> 1. Life expectancy
-> 1. Freedom to make life choices
-> 1. Generosity
-> 1. Perceptions of corruption
+> - GDP per capita (logarithm is used)
+> - Social support
+> - Life expectancy
+> - Freedom to make life choices
+> - Generosity
+> - Perceptions of corruption
 
 The report was pulled from Kaggle as a CSV file and additionally contained raw data that was used to translate into the subscores for each category as well as a 'dummy' score for a hypothetical 'Dystopia', a country where people experience the absolute minimum level of happiness.
 
